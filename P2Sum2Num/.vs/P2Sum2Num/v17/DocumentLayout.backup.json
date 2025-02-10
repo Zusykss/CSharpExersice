@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Apps\\CSharpExersice\\P2Sum2Num\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{839E7D33-BAF2-481C-AFC7-BCD504AD5EB0}|P2Sum2Num\\P2Sum2Num.csproj|e:\\apps\\csharpexersice\\p2sum2num\\p2sum2num\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{839E7D33-BAF2-481C-AFC7-BCD504AD5EB0}|P2Sum2Num\\P2Sum2Num.csproj|solutionrelative:p2sum2num\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Apps\\CSharpExersice\\P2Sum2Num\\P2Sum2Num\\Program.cs",
+              "RelativeDocumentMoniker": "P2Sum2Num\\Program.cs",
+              "ToolTip": "E:\\Apps\\CSharpExersice\\P2Sum2Num\\P2Sum2Num\\Program.cs",
+              "RelativeToolTip": "P2Sum2Num\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T02:12:41.356Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
