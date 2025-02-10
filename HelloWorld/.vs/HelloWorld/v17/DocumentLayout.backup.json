@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "E:\\Apps\\CSharpExersice\\HelloWorld\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{111328D9-B1B8-4BD1-9337-3F30B6607481}|HelloWorld\\HelloWorld.csproj|e:\\apps\\csharpexersice\\helloworld\\helloworld\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{111328D9-B1B8-4BD1-9337-3F30B6607481}|HelloWorld\\HelloWorld.csproj|solutionrelative:helloworld\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{111328D9-B1B8-4BD1-9337-3F30B6607481}|HelloWorld\\HelloWorld.csproj|e:\\apps\\csharpexersice\\helloworld\\helloworld\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{111328D9-B1B8-4BD1-9337-3F30B6607481}|HelloWorld\\HelloWorld.csproj|solutionrelative:helloworld\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{111328D9-B1B8-4BD1-9337-3F30B6607481}|HelloWorld\\HelloWorld.csproj|e:\\apps\\csharpexersice\\helloworld\\helloworld\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{111328D9-B1B8-4BD1-9337-3F30B6607481}|HelloWorld\\HelloWorld.csproj|solutionrelative:helloworld\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +22,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "E:\\Apps\\CSharpExersice\\HelloWorld\\HelloWorld\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "HelloWorld\\Form1.Designer.cs",
+              "ToolTip": "E:\\Apps\\CSharpExersice\\HelloWorld\\HelloWorld\\Form1.Designer.cs",
+              "RelativeToolTip": "HelloWorld\\Form1.Designer.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAvwE8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T02:05:56.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\Apps\\CSharpExersice\\HelloWorld\\HelloWorld\\Form1.cs",
+              "RelativeDocumentMoniker": "HelloWorld\\Form1.cs",
+              "ToolTip": "E:\\Apps\\CSharpExersice\\HelloWorld\\HelloWorld\\Form1.cs",
+              "RelativeToolTip": "HelloWorld\\Form1.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAIAwwBIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T02:01:52.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "E:\\Apps\\CSharpExersice\\HelloWorld\\HelloWorld\\Form1.cs",
               "RelativeDocumentMoniker": "HelloWorld\\Form1.cs",
