@@ -45,9 +45,11 @@ REPEAT1:
             }
 
             findAllPrimes(num);
-            if (!checkIfPrime(num)) 
+
+            if (primeList.Contains(num))
+                Console.WriteLine(num + " is a prime.");
+            else
                 Console.WriteLine(num + " is NOT a prime.");
-            else Console.WriteLine(num + " is a prime.");
 
             goto REPEAT1;
         }
@@ -75,11 +77,11 @@ NEXT1:
             }
         }
 
-        static Boolean checkIfPrime(int num)
+        /*static Boolean checkIfPrime(int num)
         {
             foreach (int j in primeList)
                 if (num % j == 0) return false;
             return true;
-        }
+        }*/
     }
 }
