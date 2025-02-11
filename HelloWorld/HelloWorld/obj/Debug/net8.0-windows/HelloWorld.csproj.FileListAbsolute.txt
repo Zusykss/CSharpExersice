@@ -1,0 +1,17 @@
+E:\Apps\CSharpExersice\HelloWorld\HelloWorld\bin\Debug\net8.0-windows\HelloWorld.exe
+E:\Apps\CSharpExersice\HelloWorld\HelloWorld\bin\Debug\net8.0-windows\HelloWorld.deps.json
+E:\Apps\CSharpExersice\HelloWorld\HelloWorld\bin\Debug\net8.0-windows\HelloWorld.runtimeconfig.json
+E:\Apps\CSharpExersice\HelloWorld\HelloWorld\bin\Debug\net8.0-windows\HelloWorld.dll
+E:\Apps\CSharpExersice\HelloWorld\HelloWorld\bin\Debug\net8.0-windows\HelloWorld.pdb
+E:\Apps\CSharpExersice\HelloWorld\HelloWorld\obj\Debug\net8.0-windows\HelloWorld.Form1.resources
+E:\Apps\CSharpExersice\HelloWorld\HelloWorld\obj\Debug\net8.0-windows\HelloWorld.csproj.GenerateResource.cache
+E:\Apps\CSharpExersice\HelloWorld\HelloWorld\obj\Debug\net8.0-windows\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+E:\Apps\CSharpExersice\HelloWorld\HelloWorld\obj\Debug\net8.0-windows\HelloWorld.AssemblyInfoInputs.cache
+E:\Apps\CSharpExersice\HelloWorld\HelloWorld\obj\Debug\net8.0-windows\HelloWorld.AssemblyInfo.cs
+E:\Apps\CSharpExersice\HelloWorld\HelloWorld\obj\Debug\net8.0-windows\HelloWorld.csproj.CoreCompileInputs.cache
+E:\Apps\CSharpExersice\HelloWorld\HelloWorld\obj\Debug\net8.0-windows\HelloWorld.sourcelink.json
+E:\Apps\CSharpExersice\HelloWorld\HelloWorld\obj\Debug\net8.0-windows\HelloWorld.dll
+E:\Apps\CSharpExersice\HelloWorld\HelloWorld\obj\Debug\net8.0-windows\refint\HelloWorld.dll
+E:\Apps\CSharpExersice\HelloWorld\HelloWorld\obj\Debug\net8.0-windows\HelloWorld.pdb
+E:\Apps\CSharpExersice\HelloWorld\HelloWorld\obj\Debug\net8.0-windows\HelloWorld.genruntimeconfig.cache
+E:\Apps\CSharpExersice\HelloWorld\HelloWorld\obj\Debug\net8.0-windows\ref\HelloWorld.dll

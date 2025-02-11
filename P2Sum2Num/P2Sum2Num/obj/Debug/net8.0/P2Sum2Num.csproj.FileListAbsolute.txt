@@ -1,0 +1,15 @@
+E:\Apps\CSharpExersice\P2Sum2Num\P2Sum2Num\bin\Debug\net8.0\P2Sum2Num.exe
+E:\Apps\CSharpExersice\P2Sum2Num\P2Sum2Num\bin\Debug\net8.0\P2Sum2Num.deps.json
+E:\Apps\CSharpExersice\P2Sum2Num\P2Sum2Num\bin\Debug\net8.0\P2Sum2Num.runtimeconfig.json
+E:\Apps\CSharpExersice\P2Sum2Num\P2Sum2Num\bin\Debug\net8.0\P2Sum2Num.dll
+E:\Apps\CSharpExersice\P2Sum2Num\P2Sum2Num\bin\Debug\net8.0\P2Sum2Num.pdb
+E:\Apps\CSharpExersice\P2Sum2Num\P2Sum2Num\obj\Debug\net8.0\P2Sum2Num.GeneratedMSBuildEditorConfig.editorconfig
+E:\Apps\CSharpExersice\P2Sum2Num\P2Sum2Num\obj\Debug\net8.0\P2Sum2Num.AssemblyInfoInputs.cache
+E:\Apps\CSharpExersice\P2Sum2Num\P2Sum2Num\obj\Debug\net8.0\P2Sum2Num.AssemblyInfo.cs
+E:\Apps\CSharpExersice\P2Sum2Num\P2Sum2Num\obj\Debug\net8.0\P2Sum2Num.csproj.CoreCompileInputs.cache
+E:\Apps\CSharpExersice\P2Sum2Num\P2Sum2Num\obj\Debug\net8.0\P2Sum2Num.sourcelink.json
+E:\Apps\CSharpExersice\P2Sum2Num\P2Sum2Num\obj\Debug\net8.0\P2Sum2Num.dll
+E:\Apps\CSharpExersice\P2Sum2Num\P2Sum2Num\obj\Debug\net8.0\refint\P2Sum2Num.dll
+E:\Apps\CSharpExersice\P2Sum2Num\P2Sum2Num\obj\Debug\net8.0\P2Sum2Num.pdb
+E:\Apps\CSharpExersice\P2Sum2Num\P2Sum2Num\obj\Debug\net8.0\P2Sum2Num.genruntimeconfig.cache
+E:\Apps\CSharpExersice\P2Sum2Num\P2Sum2Num\obj\Debug\net8.0\ref\P2Sum2Num.dll
