@@ -10,8 +10,8 @@ namespace CheckPrime
         {
             int num;
 
-            REPEAT1:
-                Console.Write("Enter a positive integer less than 2B and I will tell you if it is a prime -> ");
+REPEAT1:
+            Console.Write("Enter an integer larger than 1 AND less than 2B. I will tell you if it is a prime -> ");
             try
             {
                 num = int.Parse(Console.ReadLine());
@@ -26,9 +26,9 @@ namespace CheckPrime
                 Console.WriteLine("Number too large. It cannot exceed 2B");
                 goto REPEAT1;   
             }
-            if (num <= 0)
+            if (num <= 1)
             {
-                Console.WriteLine("Number has to be positive!");
+                Console.WriteLine("Number has to be larger than 1!");
                 goto REPEAT1;
             }
 
@@ -59,14 +59,19 @@ namespace CheckPrime
 
             for (int i = 3; i < num; i++)
             {
-                foreach (int j in primeList)
+
+NEXT1:
+                int count = primeList.Count;
+                for (int index = 0; index < count-1; index++)
                 {
-                    if (i % j == 0)
-                    {  
-                        primeList.Add(i);
-                        break;
+                    if (i % primeList[index] == 0)
+                    {
+                        i++;
+                        if (i > num) return;
+                        goto NEXT1;
                     }
                 }
+                primeList.Add(i);
             }
         }
 
