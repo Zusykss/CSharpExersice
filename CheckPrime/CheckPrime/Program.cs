@@ -4,20 +4,22 @@ namespace CheckPrime
 {
     class Program
     {
-        static List<int> primeList = new List<int>();
-
         public static void Main(string[] args)
         {
             int num;
+            List<int> primeList;
+            string msg="f";
 
-REPEAT1:
-            Console.Write("Enter an integer larger than 1 AND less than 2B. I will tell you if it is a prime -> ");
+        REPEAT1:
+            Console.Write("Enter an integer larger than 1 AND less than 2B. I will tell you if it is a prime. 'f' to finish -> ");
             try
             {
-                num = int.Parse(Console.ReadLine());
+                num = int.Parse(msg= Console.ReadLine());
             }
             catch (Exception ex)
             {
+                //if (strcomp(msg.Substring(0, 1), "f") == 0) return;
+                if (msg!=null && msg.Equals("f")) return;
                 Console.WriteLine(ex.Message);
                 goto REPEAT1;
             }
@@ -44,7 +46,7 @@ REPEAT1:
                 goto REPEAT1;
             }
 
-            findAllPrimes(num);
+            primeList= findAllPrimes(num);
 
             if (primeList.Contains(num))
                 Console.WriteLine(num + " is a prime.");
@@ -54,14 +56,15 @@ REPEAT1:
             goto REPEAT1;
         }
 
-        static void findAllPrimes(int num)
+        static List<int> findAllPrimes(int num)
         {
+            List<int> primeList = new List<int>();
+
             primeList.Add(2);
-            if (num == 2) return;
+            if (num == 2) return primeList;
 
-            for (int i = 3; i < num; i++)
+            for (int i = 3; i <= num; i++)
             {
-
 NEXT1:
                 int count = primeList.Count;
                 for (int index = 0; index < count-1; index++)
@@ -69,19 +72,13 @@ NEXT1:
                     if (i % primeList[index] == 0)
                     {
                         i++;
-                        if (i > num) return;
+                        if (i > num) return primeList;
                         goto NEXT1;
                     }
                 }
                 primeList.Add(i);
             }
+            return primeList;
         }
-
-        /*static Boolean checkIfPrime(int num)
-        {
-            foreach (int j in primeList)
-                if (num % j == 0) return false;
-            return true;
-        }*/
     }
 }
