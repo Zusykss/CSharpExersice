@@ -8,25 +8,25 @@ namespace CheckPrime
         {
             int num;
             List<int> primeList;
-            string msg="f";
+            string msg = "f";
 
         REPEAT1:
             Console.Write("Enter an integer larger than 1 AND less than 2B. I will tell you if it is a prime. 'f' to finish -> ");
             try
             {
-                num = int.Parse(msg= Console.ReadLine());
+                num = int.Parse(msg = Console.ReadLine());
             }
             catch (Exception ex)
             {
                 //if (strcomp(msg.Substring(0, 1), "f") == 0) return;
-                if (msg!=null && msg.Equals("f")) return;
+                if (msg != null && msg.Equals("f")) return;
                 Console.WriteLine(ex.Message);
                 goto REPEAT1;
             }
-            if (num>2000000000)
+            if (num > 2000000000)
             {
                 Console.WriteLine("Number too large. It cannot exceed 2B");
-                goto REPEAT1;   
+                goto REPEAT1;
             }
             if (num <= 1)
             {
@@ -34,19 +34,19 @@ namespace CheckPrime
                 goto REPEAT1;
             }
 
-            if (num ==2)
+            if (num == 2)
             {
                 Console.WriteLine(num + " is a prime.");
                 goto REPEAT1;
             }
 
-            if (num % 2==0)
+            if (num % 2 == 0)
             {
                 Console.WriteLine(num + " is NOT a prime.");
                 goto REPEAT1;
             }
 
-            primeList= findAllPrimes(num);
+            primeList = findAllPrimes(num);
 
             if (primeList.Contains(num))
                 Console.WriteLine(num + " is a prime.");
@@ -65,9 +65,9 @@ namespace CheckPrime
 
             for (int i = 3; i <= num; i++)
             {
-NEXT1:
+            NEXT1:
                 int count = primeList.Count;
-                for (int index = 0; index < count-1; index++)
+                for (int index = 0; index < count - 1; index++)
                 {
                     if (i % primeList[index] == 0)
                     {

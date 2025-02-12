@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckPrime", "CheckPrime\CheckPrime.csproj", "{D42D8B73-1C6C-425F-9705-DE5E7D2809A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckPrime", "CheckPrime\CheckPrime.csproj", "{B5AA4792-E2AE-4A7E-B471-F0310C239796}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D42D8B73-1C6C-425F-9705-DE5E7D2809A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D42D8B73-1C6C-425F-9705-DE5E7D2809A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D42D8B73-1C6C-425F-9705-DE5E7D2809A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D42D8B73-1C6C-425F-9705-DE5E7D2809A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5AA4792-E2AE-4A7E-B471-F0310C239796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5AA4792-E2AE-4A7E-B471-F0310C239796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5AA4792-E2AE-4A7E-B471-F0310C239796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5AA4792-E2AE-4A7E-B471-F0310C239796}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0A365352-9E67-4D5B-BD53-98064781538C}
+		SolutionGuid = {9C509735-3439-402D-B45A-6A42F6730CB9}
 	EndGlobalSection
 EndGlobal

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CSharpExercise\\CSharpExersice\\CheckPrime\\CheckPrime\\CheckPrime.csproj",
+      "projectUniqueName": "E:\\Apps\\CSharpExersice\\CheckPrime\\CheckPrime\\CheckPrime.csproj",
       "projectName": "CheckPrime",
-      "projectPath": "C:\\CSharpExercise\\CSharpExersice\\CheckPrime\\CheckPrime\\CheckPrime.csproj",
+      "projectPath": "E:\\Apps\\CSharpExersice\\CheckPrime\\CheckPrime\\CheckPrime.csproj",
       "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-      "outputPath": "C:\\CSharpExercise\\CSharpExersice\\CheckPrime\\CheckPrime\\obj\\",
+      "outputPath": "E:\\Apps\\CSharpExersice\\CheckPrime\\CheckPrime\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
