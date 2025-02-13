@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CheckPrime")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8193bc59cef2bcc9226c2b8003265888c111dcbb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1e2a83978f9ced738896a1a1ee50667fc7b733f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CheckPrime")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CheckPrime")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

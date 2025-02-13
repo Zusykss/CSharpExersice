@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Diagnostics.Metrics;
+
 namespace CheckPrime
 {
     class Program
@@ -42,7 +44,7 @@ namespace CheckPrime
 
             if (num % 2 == 0)
             {
-                Console.WriteLine(num + " is NOT a prime.");
+                Console.WriteLine(num + " is NOT a prime. It is an even number.");
                 goto REPEAT1;
             }
 
@@ -51,9 +53,24 @@ namespace CheckPrime
             if (primeList.Contains(num))
                 Console.WriteLine(num + " is a prime.");
             else
-                Console.WriteLine(num + " is NOT a prime.");
-
+            {
+                Console.Write(num + " is NOT a prime. It can be divided by: ");
+                Console.WriteLine(commaDelimited(primeList, num));
+            }
             goto REPEAT1;
+        }
+
+        static string commaDelimited(List<int> primeList, int num)
+        {
+            string str= "";
+
+            foreach (int prime in primeList)
+            {
+                if (num % prime == 0) str= str + prime + ",";
+            }
+
+            if (str.Length>0) str= str.Remove(str.Length - 1, 1);
+            return str;
         }
 
         static List<int> findAllPrimes(int num)
