@@ -2,7 +2,7 @@
 
 using System.Diagnostics.Metrics;
 
-namespace CheckPrime
+namespace Factorization
 {
     class Program
     {
