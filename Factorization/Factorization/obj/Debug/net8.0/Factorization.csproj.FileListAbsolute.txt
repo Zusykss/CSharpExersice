@@ -1,0 +1,15 @@
+D:\CSharpExersice\CSharpExersice\Factorization\Factorization\bin\Debug\net8.0\Factorization.exe
+D:\CSharpExersice\CSharpExersice\Factorization\Factorization\bin\Debug\net8.0\Factorization.deps.json
+D:\CSharpExersice\CSharpExersice\Factorization\Factorization\bin\Debug\net8.0\Factorization.runtimeconfig.json
+D:\CSharpExersice\CSharpExersice\Factorization\Factorization\bin\Debug\net8.0\Factorization.dll
+D:\CSharpExersice\CSharpExersice\Factorization\Factorization\bin\Debug\net8.0\Factorization.pdb
+D:\CSharpExersice\CSharpExersice\Factorization\Factorization\obj\Debug\net8.0\Factorization.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharpExersice\CSharpExersice\Factorization\Factorization\obj\Debug\net8.0\Factorization.AssemblyInfoInputs.cache
+D:\CSharpExersice\CSharpExersice\Factorization\Factorization\obj\Debug\net8.0\Factorization.AssemblyInfo.cs
+D:\CSharpExersice\CSharpExersice\Factorization\Factorization\obj\Debug\net8.0\Factorization.csproj.CoreCompileInputs.cache
+D:\CSharpExersice\CSharpExersice\Factorization\Factorization\obj\Debug\net8.0\Factorization.sourcelink.json
+D:\CSharpExersice\CSharpExersice\Factorization\Factorization\obj\Debug\net8.0\Factorization.dll
+D:\CSharpExersice\CSharpExersice\Factorization\Factorization\obj\Debug\net8.0\refint\Factorization.dll
+D:\CSharpExersice\CSharpExersice\Factorization\Factorization\obj\Debug\net8.0\Factorization.pdb
+D:\CSharpExersice\CSharpExersice\Factorization\Factorization\obj\Debug\net8.0\Factorization.genruntimeconfig.cache
+D:\CSharpExersice\CSharpExersice\Factorization\Factorization\obj\Debug\net8.0\ref\Factorization.dll

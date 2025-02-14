@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Factorization")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcab5fe0e8eb6b1123b92d044a4d7fcecf40369b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5e09879a54338328dc161ae930c242415b95a3c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Factorization")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Factorization")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

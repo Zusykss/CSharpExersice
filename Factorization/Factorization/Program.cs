@@ -13,7 +13,7 @@ namespace Factorization
             string msg = "f";
 
         REPEAT1:
-            Console.Write("Enter an integer larger than 1 AND less than 2B. I will tell you if it is a prime. 'f' to finish -> ");
+            Console.Write("Enter an integer larger than 1 AND less than 2B. I will show you it's factors. 'f' to finish -> ");
             try
             {
                 num = int.Parse(msg = Console.ReadLine());
@@ -42,35 +42,72 @@ namespace Factorization
                 goto REPEAT1;
             }
 
-            if (num % 2 == 0)
-            {
-                Console.WriteLine(num + " is NOT a prime. It is an even number.");
-                goto REPEAT1;
-            }
-
             primeList = findAllPrimes(num);
 
             if (primeList.Contains(num))
                 Console.WriteLine(num + " is a prime.");
             else
             {
-                Console.Write(num + " is NOT a prime. It can be divided by: ");
-                Console.WriteLine(commaDelimited(primeList, num));
+                List<int> factors = findFactors(num, primeList);
+
+                Console.WriteLine(presentFactors(factors));
             }
+
+            primeList = null;
             goto REPEAT1;
         }
 
-        static string commaDelimited(List<int> primeList, int num)
+        static string presentFactors(List<int> factors)
         {
-            string str= "";
+            string result= "(";
+            int j = -1;
 
-            foreach (int prime in primeList)
+            foreach (int i in factors)
             {
-                if (num % prime == 0) str= str + prime + ",";
+                if (j < 0)
+                {
+                    result = result + " " + i + " * ";
+                    j = i;
+                }
+                else
+                {
+                    if (i != j)
+                    {
+                        result = result.Remove(result.Length - 3, 3);
+                        result = result + " )( " + i + " * ";
+                    }
+                    else 
+                    {
+                        result = result + i + " * ";
+                    }
+                    j = i;
+                }
             }
 
-            if (str.Length>0) str= str.Remove(str.Length - 1, 1);
-            return str;
+            result = result.Remove(result.Length - 2, 2);
+            result = result + ")";
+            return result;
+        }
+
+        static List<int> findFactors(int num, List<int> primeList)
+        {
+            List<int> factors= new List<int>();
+
+            int dividend= num;
+            foreach (int i in primeList)
+            {
+REPEAT2:
+                if ((dividend % i) == 0)
+                {
+                    factors.Add(i);
+                    dividend = dividend / i;
+                    if (dividend==1) break;
+
+                    goto REPEAT2;
+                }
+            }
+
+            return factors;
         }
 
         static List<int> findAllPrimes(int num)
@@ -82,6 +119,8 @@ namespace Factorization
 
             for (int i = 3; i <= num; i++)
             {
+                if ((i % 2)==0) continue;
+
             NEXT1:
                 int count = primeList.Count;
                 for (int index = 0; index < count - 1; index++)
