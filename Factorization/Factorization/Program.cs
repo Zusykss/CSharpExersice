@@ -49,7 +49,6 @@ namespace Factorization
             else
             {
                 List<int> factors = findFactors(num, primeList);
-
                 Console.WriteLine(presentFactors(factors));
             }
 
