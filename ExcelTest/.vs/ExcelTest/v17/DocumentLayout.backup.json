@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Apps\\CSharpExersice\\ExcelTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBBDD8B-A13A-4CFA-B74D-E1A6B04AB903}|ExcelTest\\ExcelTest.csproj|e:\\apps\\csharpexersice\\exceltest\\exceltest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBBDD8B-A13A-4CFA-B74D-E1A6B04AB903}|ExcelTest\\ExcelTest.csproj|solutionrelative:exceltest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Apps\\CheckSignSheets\\CheckSignSheets\\CheckSignSheets\\Module1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBBDD8B-A13A-4CFA-B74D-E1A6B04AB903}|ExcelTest\\ExcelTest.csproj|e:\\apps\\csharpexersice\\exceltest\\exceltest\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBBDD8B-A13A-4CFA-B74D-E1A6B04AB903}|ExcelTest\\ExcelTest.csproj|solutionrelative:exceltest\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBBDD8B-A13A-4CFA-B74D-E1A6B04AB903}|ExcelTest\\ExcelTest.csproj|e:\\apps\\csharpexersice\\exceltest\\exceltest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0EBBDD8B-A13A-4CFA-B74D-E1A6B04AB903}|ExcelTest\\ExcelTest.csproj|solutionrelative:exceltest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Apps\\CSharpExersice\\CheckPrime\\CheckPrime\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\Apps\\CSharpExersice\\ExcelTest\\ExcelTest\\Form1.cs",
+              "RelativeDocumentMoniker": "ExcelTest\\Form1.cs",
+              "ToolTip": "E:\\Apps\\CSharpExersice\\ExcelTest\\ExcelTest\\Form1.cs",
+              "RelativeToolTip": "ExcelTest\\Form1.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T03:33:44.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Apps\\CSharpExersice\\CheckPrime\\CheckPrime\\Program.cs",
+              "RelativeDocumentMoniker": "..\\CheckPrime\\CheckPrime\\Program.cs",
+              "ToolTip": "E:\\Apps\\CSharpExersice\\CheckPrime\\CheckPrime\\Program.cs",
+              "RelativeToolTip": "..\\CheckPrime\\CheckPrime\\Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T04:00:03.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "E:\\Apps\\CSharpExersice\\ExcelTest\\ExcelTest\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "ExcelTest\\Form1.Designer.cs",
+              "ToolTip": "E:\\Apps\\CSharpExersice\\ExcelTest\\ExcelTest\\Form1.Designer.cs",
+              "RelativeToolTip": "ExcelTest\\Form1.Designer.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAIwGoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T05:06:26.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Module1.vb",
+              "DocumentMoniker": "E:\\Apps\\CheckSignSheets\\CheckSignSheets\\CheckSignSheets\\Module1.vb",
+              "RelativeDocumentMoniker": "..\\..\\CheckSignSheets\\CheckSignSheets\\CheckSignSheets\\Module1.vb",
+              "ToolTip": "E:\\Apps\\CheckSignSheets\\CheckSignSheets\\CheckSignSheets\\Module1.vb",
+              "RelativeToolTip": "..\\..\\CheckSignSheets\\CheckSignSheets\\CheckSignSheets\\Module1.vb",
+              "ViewState": "AgIAAA0BAAAAAAAAAAAWwFEBAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-02-21T03:50:04.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\Apps\\CSharpExersice\\ExcelTest\\ExcelTest\\Form1.cs",
+              "RelativeDocumentMoniker": "ExcelTest\\Form1.cs",
+              "ToolTip": "E:\\Apps\\CSharpExersice\\ExcelTest\\ExcelTest\\Form1.cs [Design]",
+              "RelativeToolTip": "ExcelTest\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T03:19:50.176Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
